@@ -157,6 +157,12 @@ text-decoration-line: underline;
     background-color: darkblue;
     color: gray;
     gap: 5%;}
+    #footericon{
+        display: flex;
+        gap: 5%;
+        
+    }
+   
 
 
     @media screen and (max-width:600px) and (min-width:375px){
