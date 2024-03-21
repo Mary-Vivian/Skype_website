@@ -1,0 +1,356 @@
+#topnav{
+    display: flex;
+    gap:5%;
+}
+#button1{
+    background-color: palevioletred;
+    border-radius: 5px;
+    padding: 0px;
+
+}
+#slantingpage{
+    display: flex;
+    gap: 10%;
+    padding-bottom: 5%;
+
+}
+#charge{
+ color: red; 
+ font-style: oblique;  
+}
+#click{
+   display: flex; 
+   font-style: oblique;
+}
+#applebutton{
+    background-color: darkblue;
+    border-radius: 15%;
+    color: beige;
+}
+#trello{
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+#account{
+    gap: 5%;
+}
+#platbutton{
+    border-radius: 5%;
+}
+#slantingbutton{
+    color: aqua;
+    transition: 0.5N;
+    rotate: -20deg;
+}
+#div2{
+    rotate: 8deg;
+}
+.btn1{
+    width: 90%;
+    background-color:beige;
+    border: none;
+    font-size: x-large;
+}
+#uploading{
+    display: flex;
+}
+#companys{
+    display: flex;
+    gap: 5%;
+    padding-left: 20%;
+}
+#rate {
+    text-align: center;
+}
+#product{
+text-decoration-line: underline;
+    text-align: center;  
+    font-size: larger;
+    font-weight: 700;
+    padding-bottom: 5%;
+}
+#pd{
+    color: red;
+}
+#interface{
+    display: inline-flex;
+    gap: 5%;
+   padding-left: 20%;
+}
+#price{
+    display: flex;
+    gap: 5%;
+}
+#global{
+    text-decoration: underline;
+    color: red;
+    font-style: oblique;
+
+}
+#customers{
+    padding-left: 20%;
+    display: flex;
+    padding-bottom: 10%;
+}
+#setting{
+    display: flex;
+    gap: 10%;
+    padding-bottom: 10%;
+
+}
+#account{
+    rotate: 20deg;
+}
+#social{
+    rotate:20deg ;
+}
+#iconbell{
+    display: flex;
+    gap: 5%;
+}
+#log{
+    border-style: dotted;
+    border-radius: 25%;
+    width: 30%;
+    height: 10%;
+}
+#sign{
+    background-color: palevioletred;
+    width: 30%;
+    height: 10%;
+}
+#jorina{
+    border: 10%;
+
+}
+#clients{
+    display: flex;
+    gap: 5%;
+    text-align: center;
+    padding-left: 20%;
+    padding-bottom: 10%;
+}
+#some{
+    text-decoration-line: underline;
+    color: red;
+}
+#wordclient{
+    text-align: center;
+    display: flex;
+    padding-left: 20%;
+    padding-bottom: 10%;
+}
+#app{
+    display: flex;
+    padding-left: 20%;
+}
+#play{
+    background-color: darkblue;
+    color: white;
+    font-size: larger;
+}
+#footer{
+    display: flex;
+    background-color: darkblue;
+    color: gray;
+    gap: 5%;}
+
+
+    @media screen and (max-width:600px) and (min-width:375px){
+        #topnav{
+          flex-wrap: wrap;
+            gap:1px;
+            flex-direction: row;
+           
+           
+        }
+        
+        
+        #slantingpage{
+          flex-wrap: wrap;
+            gap: 1%;
+          font-size: small;
+          flex-direction: row;
+          rotate: -2deg;
+        
+        }
+      
+           #click{
+              flex-wrap: wrap;
+              padding-left: 5%;
+           }
+           #customers{
+           flex-wrap: wrap;
+        }
+        #setting{
+            flex-wrap: wrap;
+            gap: 5%;
+        
+        }
+        #div2{
+            flex-wrap: wrap;
+            flex-direction: row;
+            rotate: 1deg;
+            gap: 1px;
+        }
+        #account{
+            rotate: -3deg;
+        }
+        #social{
+            rotate:-1deg ;
+            font-size: small;
+            flex-wrap: wrap;
+        }
+        #iconbell{
+          flex-wrap: wrap;
+            gap: 3%;
+            flex-direction: row;
+        }
+        #clients{
+          flex-wrap: wrap;
+            gap: 3%;
+           flex-direction: row;
+        }
+        #wordclient{
+            text-align: center;
+           flex-wrap: wrap;
+           flex-direction: row;
+          
+        }
+        #app{
+          flex-wrap: wrap;
+          flex-direction: row;
+           
+        }
+        #wordclient{
+            flex-wrap: wrap;
+            flex-direction: row;
+            
+        }
+        #interface{
+         flex-wrap: wrap;
+            gap: 3%;
+           
+        }
+        #companys{
+           flex-wrap: wrap;
+            gap: 5%;
+            padding-left: 20%;
+        }
+        #illustration{
+            width: 10px;
+        }
+        #footer{
+            flex-wrap: wrap;
+        }
+        #uploading{
+           flex-wrap: wrap;
+        }
+        body{
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    }
+    @media screen and (min-width:600px) and (max-width:800px){
+        #topnav{
+            flex-wrap: wrap;
+              gap:1px;
+              flex-direction: row;
+             
+             
+          }
+          
+          
+          #slantingpage{
+            flex-wrap: wrap;
+              gap: 1%;
+            font-size: small;
+            flex-direction: row;
+            rotate: -2deg;
+          
+          }
+        
+             #click{
+                flex-wrap: wrap;
+                padding-left: 5%;
+             }
+             #customers{
+             flex-wrap: wrap;
+          }
+          #setting{
+              flex-wrap: wrap;
+              gap: 5%;
+          
+          }
+          #div2{
+              flex-wrap: wrap;
+              flex-direction: row;
+              rotate: 1deg;
+              gap: 1px;
+          }
+          #account{
+              rotate: -3deg;
+          }
+          #social{
+              rotate:-1deg ;
+              font-size: small;
+              flex-wrap: wrap;
+          }
+          #iconbell{
+            flex-wrap: wrap;
+              gap: 3%;
+              flex-direction: row;
+          }
+          #clients{
+            flex-wrap: wrap;
+              gap: 3%;
+             flex-direction: row;
+          }
+          #wordclient{
+              text-align: center;
+             flex-wrap: wrap;
+             flex-direction: row;
+            
+          }
+          #app{
+            flex-wrap: wrap;
+            flex-direction: row;
+             
+          }
+          #wordclient{
+              flex-wrap: wrap;
+              flex-direction: row;
+              
+          }
+          #interface{
+           flex-wrap: wrap;
+              gap: 3%;
+             
+          }
+          #companys{
+             flex-wrap: wrap;
+              gap: 5%;
+              padding-left: 20%;
+          }
+          #illustration{
+              width: 10px;
+          }
+          #footer{
+              flex-wrap: wrap;
+          }
+          #uploading{
+             flex-wrap: wrap;
+          }
+          body{
+              margin-left: 10%;
+              margin-right: 10%;
+          }
+      }
+  
+  
+        
+    
+
